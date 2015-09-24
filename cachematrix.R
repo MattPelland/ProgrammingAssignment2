@@ -26,7 +26,6 @@ cacheSolve <- function(x, ...) {
     return(inv)
   }
   else{
-    print("hello")
     matrix <- x$get()
     inv <- solve(matrix)
     x$setInverse(inv)
